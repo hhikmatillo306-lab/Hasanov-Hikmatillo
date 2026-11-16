@@ -4,9 +4,7 @@
 Ishga tushirish:  python main.py
 """
 
-BOT_TOKEN = "9285873294:AAFsY3vcHRnALYpKrC_s6UUbVxDwEgu9vOg"
-ADMIN_ID = 8431665446
-
+import os
 import asyncio
 import html
 import logging
@@ -34,6 +32,9 @@ from aiogram.types import (
     Message,
 )
 from aiogram.utils.keyboard import InlineKeyboardBuilder
+
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9285873294:AAEP8fXvpYynGZ8rO4HfbpWqjSOCC7Z-Ufw")
+ADMIN_ID = 8431665446
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(name)s | %(message)s")
 log = logging.getLogger("kino_bot")
