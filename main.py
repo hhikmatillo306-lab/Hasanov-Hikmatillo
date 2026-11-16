@@ -33,7 +33,7 @@ from aiogram.types import (
 )
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "9285873294:AAEP8fXvpYynGZ8rO4HfbpWqjSOCC7Z-Ufw")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9285873294:AAHYxlgp9QUiv4th1mA4jsbfU-F-drSrSEw")
 ADMIN_ID = 8431665446
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(name)s | %(message)s")
